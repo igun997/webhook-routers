@@ -44,3 +44,7 @@ Every call to `/webhook` is stored and forwarded to the saved endpoint with the 
 ```bash
 npm test
 ```
+
+## Integration guide
+
+Migrating OwlAgent off Zernio onto the self-hosted WhatsApp stack (GOWA v8.11.0 → this router → OwlAgent, plus the outbound `/send/*` contract): see [`docs/gowa-whatsapp-bridge.md`](docs/gowa-whatsapp-bridge.md).
