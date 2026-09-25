@@ -1,0 +1,19 @@
+{
+  "name": "webhook-routers",
+  "version": "1.0.0",
+  "description": "Inspect and forward a single webhook ingress.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "webhook",
+    "router"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
